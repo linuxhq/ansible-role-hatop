@@ -1,0 +1,9 @@
+---
+- name: Ensure that the hatop package is installed
+  tags: hatop
+  become: true
+  yum:
+    enablerepo: "linuxhq-{{ linuxhq_pkg }}"
+    name: hatop
+    state: present
+...

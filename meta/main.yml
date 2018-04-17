@@ -1,0 +1,17 @@
+---
+dependencies:
+  - linuxhq.linuxhq
+galaxy_info:
+  author: tkimball83
+  description: RHEL/CentOS - Interactive ncurses client for HAProxy
+  license: GPLv3
+  min_ansible_version: 2.5
+  platforms:
+    - name: EL
+      versions:
+        - 6
+        - 7
+  galaxy_tags:
+    - haproxy
+    - hatop
+...

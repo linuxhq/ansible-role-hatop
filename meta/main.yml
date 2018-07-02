@@ -2,6 +2,7 @@
 dependencies:
   - linuxhq.linuxhq
 galaxy_info:
+  role_name: hatop
   author: tkimball83
   description: RHEL/CentOS - Interactive ncurses client for HAProxy
   license: GPLv3
@@ -12,6 +13,5 @@ galaxy_info:
         - 6
         - 7
   galaxy_tags:
-    - haproxy
     - hatop
 ...
